@@ -1,0 +1,33 @@
+*{
+    font-family: monospace;
+    background-color: rgb(255, 197, 216);   
+}
+
+input{
+    border: palevioletred solid 2px;
+    margin: 5px;
+}
+
+#divScore > p {
+    position:relative;
+    margin: 10px;
+}
+button{
+    height: 50px;
+    width: 100px;
+    border: none;
+    background-color: palevioletred;
+    color: white;
+    border-radius: 10px;
+    margin: 5px;
+}
+#buttonDiv{
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
